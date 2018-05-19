@@ -9,7 +9,7 @@ import scipy.stats as stats
 
 #Note: Here the bias term is considered as the last added feature 
 
-class LogisticRegression(Classifier):
+class LogisticRegression:
     ''' Implements the LogisticRegression For Classification... '''
     def __init__(self, lembda=0.001, alpha=0.001, maxniter=2000):        
         """
