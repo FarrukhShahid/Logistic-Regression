@@ -20,7 +20,7 @@ class LogisticRegression:
 		    self.lembda = lembda
         
         pass
-	def gradient_descent(self, X, Y, cost_function, derivative_cost_function):
+    def gradient_descent(self, X, Y, cost_function, derivative_cost_function):
         '''
             Finds the minimum of given cost function using gradient descent.
             
